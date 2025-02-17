@@ -76,7 +76,7 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-image: url("https://ar.microautomacion.com/wp-content/uploads/2025/01/NOVEDADES.jpg");
+        background-image: url("https://imgur.com/a/aKyjHwx");
         background-size: cover;
         background-position: center;
     }
