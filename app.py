@@ -182,7 +182,7 @@ if st.session_state.metodo_fuerza == "Calcular":
 elif st.session_state.metodo_fuerza == "Ingresar manualmente":
     # Campo para ingresar fuerza manualmente
     with st.form(key="manual_form"):
-        fuerza_manual = st.number_input("Fuerza de succión necesaria por ventosa (N):", min_value=0, step=100)
+        fuerza_manual = st.number_input("Fuerza de succión necesaria por ventosa (N):", min_value=0, step=10)
         submit_fuerza_manual = st.form_submit_button(label="Guardar fuerza manual")
 
     if submit_fuerza_manual:
